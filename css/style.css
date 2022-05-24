@@ -1,0 +1,327 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+header {
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.house {
+    width: 30%;
+}
+.house h1 {
+    margin: 0;
+    font-family: "Pacifico";
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+.house p {
+    text-align: center;
+    font-size: 15px;
+}
+.grayyy p {
+    text-align: center;
+    color: #444444;
+}
+.grayyy h2 {
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 27px;
+    color: #444444;
+}
+.grayyy .far {
+    text-align: center;
+    font-size: 49px;
+    color: gray;
+    padding: 15px 0px;
+}
+.grayyy {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px;
+}
+.grayy {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    background: white;
+    padding: 40px 0px;
+}
+.gray {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+    background-color: #f4f4f4;
+}
+.butoni {
+    text-align: center;
+    padding: 20px 0px;
+}
+.butoni button {
+    text-transform: uppercase;
+    padding: 23px 19px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: #444444;
+    background: transparent;
+    border: 2px solid #444444;
+    border-radius: 10px;
+}
+.butoni a {
+    color: #444444;
+    text-decoration: none;
+}
+.first {
+    background: rgb(0, 0, 0,0.5) url(../img/pic01.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 35vh;
+}
+.visoko {
+    background: rgb(0, 0, 0,0.3) url(../img/pic03.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 35vh;
+
+}
+.kakanj {
+    background: rgb(0, 0, 0,0.3) url(../img/pic04.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 35vh;
+}
+.vogosca {
+    background: rgb(0, 0, 0,0.5) url(../img/pic02.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 35vh;
+}
+.vogosca h3 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.kakanj h3 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.kakanj img {
+    width: 100%;
+}
+.first h3 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.first img {
+    width: 100%;
+}
+.visoko img {   
+    width: 100%;
+}
+.visoko h3 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+}
+.two p {
+    width: 74%;
+    text-align: center;
+    color: #666666;
+   padding-top: 20px;
+   line-height: 1.8;
+}
+.country {
+    display: flex;
+    background: #f4f4f4;
+    flex-direction: column;
+    align-items: center;
+
+}
+.federation {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.federationn {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.sarajevo {
+    display: flex;
+    padding: 30px 0px;
+    height: 65vh;
+    justify-content: space-around;
+}
+.picture {
+    display: flex;
+    width: 47%;
+    flex-direction: column;
+}
+.sesam a {
+    text-decoration: none;
+    color: #444444;
+    background: transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+} 
+.sesam button {
+    padding: 10px 35px;
+}
+.sesam {
+    padding: 15px 0px;
+}
+.kobilja {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+}
+footer {
+width: 40%;
+    padding: 75px;
+    text-align: center;
+
+}
+footer h2 {
+    margin: 0;
+    padding: 30px 0px;
+    color: #666666;
+    letter-spacing: 6px;
+}
+footer p{
+    padding: 30px 0px;
+    color: #666666;
+    letter-spacing: 2px;
+    line-height: 1.6;
+}
+.trash {
+    padding: 15px 0px
+}
+.trash button {
+    padding: 15px 51px;
+    font-size: 18px;
+}
+.trash button a {
+    text-decoration: none;
+    color: #444444;
+}
+.fab, .fas {
+    color: #444444;
+    padding: 30px 0px;
+}
+footer .b {
+    padding: 30px 0px;
+    margin-right: 25px;
+    font-size: 30px;
+    color: #444444;
+}
+footer .b:hover{
+    color: white;
+    font-size: 40px;
+    transition: 1s ease;
+}
+.house span a {
+    text-decoration: none;
+    color: black;
+}
+.house span a:hover {
+    color: red;
+    transition: 1s ease;
+}
+.kobiljaa {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+}
+
+ /* Responsive */
+
+ @media(max-width: 767px) {
+     .house {
+        width: 90%;
+        margin: auto;
+     }
+     .grayyy {
+        width: 100%;
+     }
+     .sarajevo {
+        flex-direction: column;
+     }
+     .picture {
+        width: 100%;
+        position: relative;
+        top: 261px;
+    }
+    .two p {
+        width: 100%;
+    }
+    .kobilja {
+        width: 100%;
+        position: relative;
+        top: 280px
+    }
+    footer {
+        width: 90%;
+        position: relative;
+        top: 1134px;
+    }
+    footer p {
+        font-size: 15px;
+    }
+    .kobiljaa {
+        width: 100%;
+        position: relative;
+        top: 1459px;
+    }
+    .federationn {
+        padding-top: 0px;
+    }
+ }
